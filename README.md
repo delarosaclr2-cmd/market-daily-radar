@@ -6,6 +6,11 @@ Repositorio para una rutina diaria de análisis de mercado con Claude.
 
 Generar todos los días un radar de mercado que ayude a identificar activos con movimientos fuertes, noticias relevantes y posibles oportunidades para estudiar.
 
+La rutina debe generar dos archivos por día:
+
+- `reports/YYYY-MM-DD-market-radar.md`
+- `reports/YYYY-MM-DD-market-radar.pdf`
+
 Este repositorio está pensado para una rutina programada en Claude, no para ejecutar órdenes de compra o venta automáticamente.
 
 ## Qué debe entregar la rutina
@@ -18,6 +23,7 @@ Este repositorio está pensado para una rutina programada en Claude, no para eje
 - Posibles oportunidades para estudiar.
 - Activos que conviene evitar por baja calidad de señal.
 - Watchlist final.
+- Reporte en Markdown y PDF.
 
 ## Advertencia
 

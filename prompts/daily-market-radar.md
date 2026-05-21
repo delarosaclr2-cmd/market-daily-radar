@@ -130,7 +130,22 @@ Clasifica el horizonte como:
 - Mediano plazo
 - Largo plazo
 
-### 8. Advertencia final
+### 8. Archivos de salida
+
+Genera dos archivos:
+
+1. `reports/YYYY-MM-DD-market-radar.md`
+2. `reports/YYYY-MM-DD-market-radar.pdf`
+
+Primero crea el archivo Markdown. Después genera el PDF ejecutando:
+
+```bash
+python scripts/markdown_to_pdf.py reports/YYYY-MM-DD-market-radar.md reports/YYYY-MM-DD-market-radar.pdf
+```
+
+Si el PDF no se puede generar, conserva el archivo Markdown y explica claramente qué error ocurrió.
+
+### 9. Advertencia final
 
 Aclara que esto no es asesoría financiera personalizada y que debo hacer análisis propio antes de invertir.
 
